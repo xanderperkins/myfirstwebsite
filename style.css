@@ -1,0 +1,67 @@
+
+/* Overall page styling */
+body {
+    background-color: #171717;
+    color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styling */
+.page-header {
+    background-color: #292929;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 2px solid #a61919;
+}
+
+/* Navigation styling */
+#navigation {
+    background-color: #292929;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #a61919;
+}
+
+#navigation a {
+    color: #e64b4b;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Main content styling */
+.content-section {
+    background-color: #292929;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #a61919;
+}
+
+/* Heading and paragraph styling */
+h1, h2, h3 {
+    color: #e64b4b;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* Footer styling */
+.page-footer {
+    background-color: #292929;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+    border-top: 2px solid #a61919;
+}
