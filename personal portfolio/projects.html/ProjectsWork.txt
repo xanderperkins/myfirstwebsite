@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | My Portfolio</title>
+    <title>Projects / Work | My Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,44 +14,54 @@
 <body>
 
     <header class="site-header">
-        <h1>My Projects and Work</h1>
-        <p>A look at my creative projects and progress.</p>
-    </header>
+        <h1>My Portfolio</h1>
 
-    <nav class="main-nav" id="navigation">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html" class="active">Projects / Work</a></li>
-            <li><a href="about.html">About / Contact</a></li>
-        </ul>
-    </nav>
+        <nav class="main-nav" id="navigation">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./ProjectsWork.html" class="active">Projects / Work</a></li>
+                <li><a href="./AboutContact.html">About / Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main class="container">
 
         <section class="hero">
-            <h2>My Creative Projects</h2>
-            <p>These are some of the areas where I want
-            to develop my skills and creativity.</p>
+            <h2>Projects / Work</h2>
+            <p>
+                This page highlights the projects and skills I am
+                interested in developing as I continue learning.
+            </p>
         </section>
 
         <section class="content-grid">
 
             <article class="content-card">
-                <h2>Gaming Videos</h2>
-                <p>I am working toward creating gaming content
-                that reflects my interests and creativity.</p>
+                <h2>Gaming Content</h2>
+                <p>
+                    Gaming is one of my biggest interests. I want to
+                    create videos covering games I enjoy and share
+                    experiences with others.
+                </p>
             </article>
 
             <article class="content-card">
                 <h2>Video Editing</h2>
-                <p>I want to develop my editing skills to make
-                my videos more engaging and enjoyable.</p>
+                <p>
+                    I am interested in improving my video editing
+                    abilities and learning how to create more
+                    engaging and professional content.
+                </p>
             </article>
 
             <article class="content-card">
                 <h2>Web Development</h2>
-                <p>I am learning HTML and other technical skills
-                that can support my work as a content creator.</p>
+                <p>
+                    I am learning HTML and CSS to build websites,
+                    understand web development, and expand my
+                    technical skills.
+                </p>
             </article>
 
         </section>
@@ -60,9 +69,9 @@
     </main>
 
     <footer class="site-footer">
-        <p>My Personal Portfolio</p>
+        <p>&copy; 2026 My Portfolio</p>
     </footer>
 
 </body>
 </html>
-
+```
