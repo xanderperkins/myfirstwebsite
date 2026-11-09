@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About and Contact | My Portfolio</title>
+    <title>About / Contact | My Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,58 +14,61 @@
 <body>
 
     <header class="site-header">
-        <h1>About Me</h1>
-        <p>Learn more about my interests and goals.</p>
-    </header>
+        <h1>My Portfolio</h1>
 
-    <nav class="main-nav" id="navigation">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects / Work</a></li>
-            <li><a href="about.html" class="active">About / Contact</a></li>
-        </ul>
-    </nav>
+        <nav class="main-nav" id="navigation">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./ProjectsWork.html">Projects / Work</a></li>
+                <li><a href="./AboutContact.html" class="active">About / Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main class="container">
 
         <section class="hero">
-            <h2>Who I Am</h2>
-            <p>I enjoy gaming, creativity, and exploring
-            ways to improve my skills.</p>
+            <h2>About Me</h2>
+            <p>
+                I am a student interested in technology, gaming,
+                and content creation. I enjoy developing new skills
+                and finding ways to improve.
+            </p>
         </section>
 
         <section class="content-grid">
 
             <article class="content-card">
                 <h2>My Future</h2>
-                <p>My goal is to continue progressing as a
-                content creator while learning new skills
-                that will help me produce better content.</p>
+                <p>
+                    My goal is to continue learning and improving
+                    as a content creator while developing technical
+                    and creative skills that can help me in the future.
+                </p>
             </article>
 
             <article class="content-card">
                 <h2>My Interests</h2>
-                <ul>
-                    <li>Gaming</li>
-                    <li>Video production</li>
-                    <li>Technology and creative projects</li>
-                </ul>
+                <p>
+                    Outside of school, I enjoy video games,
+                    video editing, technology, and exploring
+                    different creative projects.
+                </p>
             </article>
 
         </section>
 
         <section class="contact-section">
             <h2>Contact</h2>
-            <p>Contact information and social media links
-            can be added here in the future.</p>
+            <p>Thank you for visiting my portfolio!</p>
         </section>
 
     </main>
 
     <footer class="site-footer">
-        <p>My Personal Portfolio</p>
+        <p>&copy; 2026 My Portfolio</p>
     </footer>
 
 </body>
 </html>
-
+```
