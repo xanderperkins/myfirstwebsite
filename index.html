@@ -4,61 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Gaming Interests</title>
+    <title>Home | My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Gaming Interests</h1>
-        <p>A little about my favorite hobby.</p>
+
+    <header class="site-header">
+        <h1>My Personal Portfolio</h1>
+        <p>My journey as a content creator.</p>
     </header>
 
-    <nav>
-        <h2>Page Sections</h2>
+    <nav class="main-nav" id="navigation">
         <ul>
-            <li><a href="#favorite-games">Favorite Games</a></li>
-            <li><a href="#why-i-game">Why I Game</a></li>
-            <li><a href="#future-goals">Future Goals</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="projects.html">Projects / Work</a></li>
+            <li><a href="about.html">About / Contact</a></li>
         </ul>
     </nav>
 
-    <main>
-        <section id="favorite-games">
-            <h2>My Favorite Games</h2>
-            <p>I enjoy video games that offer exciting gameplay,
-            interesting stories, and memorable experiences.</p>
+    <main class="container">
 
-            <img
-                src="https://commons.wikimedia.org/wiki/Special:FilePath/Assassin's_Creed_logo.svg"
-                alt="The Assassin's Creed franchise logo"
-                width="300"
-            >
-
-            <h3>Games I Enjoy</h3>
-            <ul>
-                <li>Assassin's Creed</li>
-                <li>Star Wars Battlefront II</li>
-                <li>Call of Duty</li>
-                <li>Clair Obscur: Expedition 33</li>
-            </ul>
+        <section class="hero">
+            <h2>Welcome to My Portfolio</h2>
+            <p>This website showcases my interests, projects,
+            and goals as I continue to grow as a content creator.</p>
         </section>
 
-        <section id="why-i-game">
-            <h2>Why I Enjoy Gaming</h2>
-            <p>Gaming allows me to explore different worlds,
-            challenge myself, and experience interesting stories
-            in an interactive way.</p>
+        <section class="content-grid">
+
+            <article class="content-card">
+                <h2>My Goals</h2>
+                <p>I want to continue improving my content
+                and learning new skills that will help me
+                achieve my goals.</p>
+            </article>
+
+            <article class="content-card">
+                <h2>What I Want to Learn</h2>
+                <ul>
+                    <li>Video editing</li>
+                    <li>Content creation</li>
+                    <li>Web development</li>
+                </ul>
+            </article>
+
         </section>
 
-        <article id="future-goals">
-            <h2>My Future Goals</h2>
-            <p>I want to continue to progress as a content creator
-            and learn new skills that will help me improve my content
-            and achieve my goals.</p>
-        </article>
     </main>
 
-    <footer>
-        <p>Created as an introduction to HTML.</p>
+    <footer class="site-footer">
+        <p>My Personal Portfolio</p>
     </footer>
+
 </body>
 </html>
+
