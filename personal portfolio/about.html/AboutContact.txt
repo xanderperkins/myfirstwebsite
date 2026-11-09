@@ -4,47 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | My Portfolio</title>
+    <title>About and Contact | My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Projects and Work</h1>
-        <p>A look at my creative projects and progress.</p>
+
+    <header class="site-header">
+        <h1>About Me</h1>
+        <p>Learn more about my interests and goals.</p>
     </header>
 
-    <nav>
+    <nav class="main-nav" id="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="projects.html">Projects / Work</a></li>
-            <li><a href="about.html">About / Contact</a></li>
+            <li><a href="about.html" class="active">About / Contact</a></li>
         </ul>
     </nav>
 
-    <main>
-        <section>
-            <h2>My Creative Projects</h2>
-            <article>
-                <h3>Gaming Videos</h3>
-                <p>I am working toward creating gaming content
-                that reflects my interests and creativity.</p>
-            </article>
+    <main class="container">
 
-            <article>
-                <h3>Video Editing</h3>
-                <p>I want to develop my editing skills to make
-                my videos more engaging and enjoyable.</p>
-            </article>
-
-            <article>
-                <h3>Web Development</h3>
-                <p>I am learning HTML and other technical skills
-                that can support my work as a content creator.</p>
-            </article>
+        <section class="hero">
+            <h2>Who I Am</h2>
+            <p>I enjoy gaming, creativity, and exploring
+            ways to improve my skills.</p>
         </section>
+
+        <section class="content-grid">
+
+            <article class="content-card">
+                <h2>My Future</h2>
+                <p>My goal is to continue progressing as a
+                content creator while learning new skills
+                that will help me produce better content.</p>
+            </article>
+
+            <article class="content-card">
+                <h2>My Interests</h2>
+                <ul>
+                    <li>Gaming</li>
+                    <li>Video production</li>
+                    <li>Technology and creative projects</li>
+                </ul>
+            </article>
+
+        </section>
+
+        <section class="contact-section">
+            <h2>Contact</h2>
+            <p>Contact information and social media links
+            can be added here in the future.</p>
+        </section>
+
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <p>My Personal Portfolio</p>
     </footer>
+
 </body>
 </html>
+
