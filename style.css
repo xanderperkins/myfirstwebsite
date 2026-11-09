@@ -1,67 +1,252 @@
 
-/* Overall page styling */
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #171717;
     color: #f2f2f2;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 20px;
-}
-
-/* Header styling */
-.page-header {
-    background-color: #292929;
-    color: #ffffff;
-    text-align: center;
-    padding: 30px;
-    margin-bottom: 20px;
-    border: 2px solid #a61919;
-}
-
-/* Navigation styling */
-#navigation {
-    background-color: #292929;
-    padding: 15px;
-    margin-bottom: 25px;
-    border: 1px solid #a61919;
-}
-
-#navigation a {
-    color: #e64b4b;
-    text-decoration: none;
-    margin-right: 15px;
-}
-
-/* Main content styling */
-.content-section {
-    background-color: #292929;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #a61919;
-}
-
-/* Heading and paragraph styling */
-h1, h2, h3 {
-    color: #e64b4b;
-}
-
-p {
+    padding: 0;
     line-height: 1.6;
 }
 
-/* Image styling */
-img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
 }
 
-/* Footer styling */
-.page-footer {
+h2 {
+    color: #e64b4b;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.site-header {
     background-color: #292929;
     color: #ffffff;
     text-align: center;
-    padding: 15px;
-    margin-top: 25px;
-    border-top: 2px solid #a61919;
+    padding: 40px 24px;
+    border-bottom: 4px solid #a61919;
+}
+
+.site-header h1 {
+    color: #e64b4b;
+    font-size: 40px;
+    margin: 0 0 8px;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+#navigation {
+    background-color: #222222;
+    padding: 16px;
+    border-bottom: 1px solid #a61919;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 8px 16px;
+    display: block;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: #e64b4b;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 32px 24px;
+}
+
+.hero {
+    background-color: #292929;
+    border-left: 4px solid #a61919;
+    padding: 32px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+/* =========================
+   FLEXBOX CONTENT GRID
+========================= */
+
+.content-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.content-card {
+    background-color: #292929;
+    border: 1px solid #a61919;
+    border-radius: 8px;
+    padding: 24px;
+    flex: 1 1 280px;
+}
+
+.content-card h2 {
+    margin-top: 0;
+}
+
+.content-card li {
+    margin-bottom: 8px;
+}
+
+/* =========================
+   CONTACT SECTION
+========================= */
+
+.contact-section {
+    background-color: #292929;
+    border: 1px solid #a61919;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 32px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.site-footer {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px;
+    border-top: 3px solid #a61919;
+}
+
+/* =========================
+   TABLET RESPONSIVENESS
+   768px and below
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    .site-header {
+        padding: 32px 16px;
+    }
+
+    .site-header h1 {
+        font-size: 32px;
+    }
+
+    .container {
+        padding: 24px 16px;
+    }
+
+    .hero {
+        padding: 24px;
+    }
+
+    .content-grid {
+        gap: 16px;
+    }
+
+    .content-card {
+        flex: 1 1 240px;
+    }
+
+    .main-nav ul {
+        gap: 8px;
+    }
+}
+
+/* =========================
+   MOBILE RESPONSIVENESS
+   480px and below
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .site-header {
+        padding: 24px 16px;
+    }
+
+    .site-header h1 {
+        font-size: 28px;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .main-nav a {
+        padding: 8px;
+    }
+
+    .container {
+        padding: 16px;
+    }
+
+    .hero {
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .content-grid {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .content-card {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .contact-section {
+        padding: 16px;
+    }
+
+    .site-footer {
+        padding: 16px;
+    }
 }
