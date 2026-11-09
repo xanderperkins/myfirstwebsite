@@ -11,12 +11,15 @@ body {
     background-color: #171717;
     color: #f2f2f2;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     line-height: 1.6;
 }
 
 h1,
 h2 {
     font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 /* Header */
@@ -90,6 +93,24 @@ h2 {
 
 .hero p {
     max-width: 800px;
+}
+
+/* Assassin's Creed image */
+
+.assassins-creed-image {
+    background-color: #f2f2f2;
+    padding: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.assassins-creed-image img {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    margin: 0 auto;
 }
 
 /* Content cards */
@@ -199,6 +220,10 @@ h2 {
 
     .content-card {
         flex-basis: auto;
+        padding: 16px;
+    }
+
+    .assassins-creed-image {
         padding: 16px;
     }
 
