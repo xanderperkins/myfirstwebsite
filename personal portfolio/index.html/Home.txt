@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,42 +14,51 @@
 <body>
 
     <header class="site-header">
-        <h1>My Personal Portfolio</h1>
-        <p>My journey as a content creator.</p>
-    </header>
+        <h1>My Portfolio</h1>
 
-    <nav class="main-nav" id="navigation">
-        <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="projects.html">Projects / Work</a></li>
-            <li><a href="about.html">About / Contact</a></li>
-        </ul>
-    </nav>
+        <nav class="main-nav" id="navigation">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="ProjectsWork.html">Projects / Work</a></li>
+                <li><a href="AboutContact.html">About / Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main class="container">
 
         <section class="hero">
             <h2>Welcome to My Portfolio</h2>
-            <p>This website showcases my interests, projects,
-            and goals as I continue to grow as a content creator.</p>
+            <p>
+                This website is a place to share my interests, projects,
+                and progress as I continue learning new skills.
+            </p>
+        </section>
+
+        <section class="assassins-creed-image">
+            <img src="assassins-creed-logo.png"
+                 alt="Assassin's Creed logo">
         </section>
 
         <section class="content-grid">
 
             <article class="content-card">
-                <h2>My Goals</h2>
-                <p>I want to continue improving my content
-                and learning new skills that will help me
-                achieve my goals.</p>
+                <h2>My Interests</h2>
+                <p>
+                    I enjoy gaming, creating content, and learning more
+                    about technology. Some of my favorite games include
+                    Assassin's Creed, Star Wars Battlefront II,
+                    Call of Duty, and Clair Obscur: Expedition 33.
+                </p>
             </article>
 
             <article class="content-card">
-                <h2>What I Want to Learn</h2>
-                <ul>
-                    <li>Video editing</li>
-                    <li>Content creation</li>
-                    <li>Web development</li>
-                </ul>
+                <h2>My Goals</h2>
+                <p>
+                    I want to continue to progress as a content creator
+                    and learn new skills that will help me improve my
+                    content and achieve my goals.
+                </p>
             </article>
 
         </section>
@@ -58,9 +66,10 @@
     </main>
 
     <footer class="site-footer">
-        <p>My Personal Portfolio</p>
+        <p>&copy; 2026 My Portfolio</p>
     </footer>
 
 </body>
 </html>
+```
 
